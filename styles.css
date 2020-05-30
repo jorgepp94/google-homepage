@@ -1,0 +1,14 @@
+.top-bar{
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    float: right;
+}
+
+.top-bar li{
+    display: inline;
+}
+.top-bar li a{
+    padding: 8px;
+
+}
