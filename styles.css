@@ -2,7 +2,9 @@
     list-style-type: none;
     margin: 5px;
     padding: 5px;
-    float: right;
+    position: relative;
+    left: 1300px;
+    
 }
 
 .top-bar li{
@@ -10,5 +12,49 @@
 }
 .top-bar li a{
     padding: 8px;
-
+    text-decoration: none;
+    color: #000000;
 }
+
+.top-bar li a:hover {
+    color: #0000FF;
+}
+
+#google-pic {
+    text-align: center;
+    margin-top: 150px;
+    overflow: hidden;
+}
+
+#search-bar-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+#searchbar {
+    background: #FFF;
+    border-radius: 24px;
+    height: 34px;
+    width: 584px;
+    cursor: text;
+    border: 2px solid #cfd8e9;
+}
+#searchbar:focus{
+    outline: none;
+}
+
+.section-buttons {
+    text-align: center;
+    padding-top: 18px;
+}
+
+.section-buttons input {
+
+    
+    
+}
+
