@@ -22,7 +22,7 @@
 
 #google-pic {
     text-align: center;
-    margin-top: 150px;
+    margin-top: 110px;
     overflow: hidden;
 }
 
@@ -52,9 +52,29 @@
     padding-top: 18px;
 }
 
-.section-buttons input {
+.section-buttons input{
+    height: 36px;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    cursor: pointer;
+    padding: 0 16px;
+    
+}
 
-    
-    
+.section-buttons input:focus {
+    border: 1px solid #4d90fe;
+    outline: none;
+}
+
+.section-buttons input:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
 }
 
