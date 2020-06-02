@@ -29,7 +29,7 @@ nav{
     text-decoration: underline;
 }
 
-.top-bar li a button:hover{
+.top-bar li a input:hover{
     cursor: pointer;
 }
 
